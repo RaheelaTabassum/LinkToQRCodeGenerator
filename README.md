@@ -26,8 +26,21 @@ This is a simple Python script to generate QR codes. The script takes a URL or a
 
 2. Install the required Python libraries:
 
-    ```bash
+- Windows:
+    ```powershell
     pip install -r requirements.txt
+    ```
+- Linux:
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+    Note: pip3 might not be installed by-default in some of the Linux distros. Please install it before installing the dependencies
+    To install pip3 type:
+    ```bash
+    sudo apt-get install python3-pip   # If you are in Debian-based disto
+    sudo pacman -S python3-pip         # If you are in Arch-based distro
+    sudo dnf install python3-pip       # If you are in Fedora
+    sudo yum install python3-pip       # If you are in CentOS/RHEL
     ```
 
 ### Usage
